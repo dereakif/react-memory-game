@@ -1,0 +1,18 @@
+.result {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  p {
+    color: white;
+  }
+  .complete {
+    font-weight: 800;
+    font-size: 3rem;
+  }
+  .end-game {
+    font-size: 2rem;
+  }
+}

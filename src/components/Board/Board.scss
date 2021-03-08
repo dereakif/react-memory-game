@@ -1,0 +1,32 @@
+.container {
+  font-family: "Recursive", sans-serif;
+  margin: auto;
+  .logo {
+    height: auto;
+    width: 200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  h1 {
+    letter-spacing: 3px;
+
+    text-align: center;
+    color: white;
+  }
+  .game-info {
+    font-size: 1rem;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+  }
+  .card-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+}
